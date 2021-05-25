@@ -20,13 +20,25 @@
       "supportsTablet": true
     },
     "android": {
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+       
+      },
+  
+      "package": "com.khaled9673.Chat"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "config": {
+        "firebase": {
+          "projectId": "chat-app-ef1e2",
+          "apiKey": "AIzaSyDmOuqdYu01cT7D-wq863eH895RtepliXI"
+         },
+        "favicon": "./assets/favicon.png"
     }
   }
 }
+}
+ 
